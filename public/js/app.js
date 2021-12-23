@@ -17,7 +17,6 @@ const requestData = (address) => {
                messageOne.textContent = data.location;
                messageTwo.textContent = `${data.forecast.current.weather_descriptions[0]} and it is currently ${data.forecast.current.temperature} degrees out. There is a ${data.forecast.current.temperature}% chance of rain`;
                // console.log(data.forecast);
-               // console.log(data.location);
             }
          });
       })
