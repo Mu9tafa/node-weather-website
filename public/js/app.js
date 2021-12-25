@@ -16,7 +16,6 @@ const requestData = (address) => {
             } else {
                messageOne.textContent = data.location;
                messageTwo.textContent = `${data.forecast.current.weather_descriptions[0]} and it is currently ${data.forecast.current.temperature} degrees out. It feels like ${data.forecast.current.feelslike} degrees out. The humidity is ${data.forecast.current.humidity}%.`;
-               console.log(data.forecast);
             }
          });
       })
